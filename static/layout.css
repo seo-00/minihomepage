@@ -1,0 +1,196 @@
+/*레이아웃*/
+
+body{
+    background-color:  #afafaf;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+}
+
+.bookcover {
+    position: relative;
+    margin: 100px auto;
+    background-color: #f0bfe1;
+    border-radius: 9px;
+    width: 960px;
+    height: 660px;
+  }
+  
+.bookdot{
+    position:absolute;
+    margin: 15px;
+    border-width: 2px;
+    border-radius: 9px;
+    border-style: dashed;
+    border-color: white;
+    width:930px;
+    height:630px;
+
+}
+
+.page{
+    position: absolute;
+    display:flex;
+    margin:10px;
+    padding:15px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 9px;
+    width:880px;
+    height: 580px;
+}
+
+.box1{
+    flex:0.4;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_today{
+    font-family: 'NeoDunggeunmo';
+    flex:0.05;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*프로필*/
+
+.profile{
+    flex:1;
+    background-color: white;
+    margin-right:10px;
+    border-radius: 9px;
+    display:flex;
+    flex-direction: column;
+}
+
+.profile_img{
+    flex:0.5;
+    width:160px;
+    padding:10px;
+    margin:10px auto;
+    display: block;
+}
+
+.profile_txt{
+    flex:1;
+    font-size:13px;
+    line-height: 15px;
+    font-family: 'NeoDunggeunmo';
+    padding:10px;
+    margin:10px;
+}
+
+.profile_name{
+    flex:0.1;
+    font-size:16px;
+    font-family: 'NeoDunggeunmo';
+    margin-left:30px;
+}
+
+/*드롭다운*/
+
+.dropdown{
+    flex:0.1;
+    margin:auto;
+}
+
+.surf{
+    background-color: white;
+    border:1px solid black;
+    padding:5px 13px;
+    font-size:14px;
+    font-family: 'InfinitySans-RegularA1';
+    margin:20px;
+}
+
+.box2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title2{
+    font-family: 'NeoDunggeunmo';
+    flex:0.05;
+    display: flex;
+    flex-direction: row;
+}
+
+.title_name{
+    flex:0.5;
+    font-size: 16px;
+    margin-left:10px;
+}
+
+.title_url{
+    
+    flex:1;
+    font-size: 15px;
+    text-align: right;
+}
+
+a{
+    color:rgb(255, 2, 158);
+}
+
+a:hover{
+    color:rgb(112, 2, 255);
+}
+
+/*메인홈*/
+
+.mainhome{
+    flex:1;
+    background-color: white;
+    padding:20px;
+    margin-left:10px;
+    border-radius: 9px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+/*메뉴*/
+
+.box3{
+    flex:0.15;
+    padding-top:40px;
+}
+
+.menu_button{
+    background-color: rgb(233, 146, 199);
+    width:100%;
+    color:white;
+    font-family: 'NeoDunggeunmo';
+    font-size: 14px;
+    text-align: left;
+    border-end-end-radius: 6px;
+    border-start-end-radius: 6px;
+    margin:7px 0px;
+    padding:7px;
+    border:0;
+}
+
+.menu_button:hover{
+    background-color:rgb(241, 75, 178);
+}
+
+/*디자인*/
+.smalltext{
+    font-family: 'InfinitySans-RegularA1';
+    font-size:11px;
+    color:rgb(226, 87, 196);
+}
+
+.colorbox_red{
+    background-color: rgb(236, 86, 118);
+    color:white;
+    border-radius: 4px;
+    padding:1px 4px;
+}
+
+.colorbox_blue{
+    background-color: rgb(88, 71, 241);
+    color:white;
+    border-radius: 4px;
+    padding:1px 4px;
+}

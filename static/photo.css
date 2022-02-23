@@ -1,0 +1,35 @@
+.container{
+    margin:auto;
+    width:520px;
+    height:510px;
+    border:0;
+    overflow: auto;
+}
+
+.photo_title{
+    background-color: rgb(253, 242, 252);
+    font-family: 'NeoDunggeunmo';
+    font-size:17px;
+    font-weight: 100px;
+    padding:5px;
+    margin-bottom:15px;
+    border:1px solid black;
+}
+
+.photo_img{
+    text-align: center;
+}
+
+.photo_text{
+    font-family: 'NeoDunggeunmo';
+    font-size: 14px;
+    margin:10px 5px;
+    padding: 10px;
+    
+}
+
+.photo_date{
+    font-size: 14px;
+    color:rgb(206, 91, 181);
+    margin-left:10px;
+}

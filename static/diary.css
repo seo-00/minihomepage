@@ -1,0 +1,79 @@
+.calendar{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    border:1px solid rgb(112, 112, 112);
+    font-family: 'NeoDunggeunmo';
+}
+
+.today{
+    flex:0.1;
+    text-align: center;
+    color:rgb(241, 75, 178);
+    font-weight: bold;
+    font-size: 17px;
+    margin:auto;
+    padding:10px;
+}
+
+.date{
+    flex:1;
+    flex-wrap: wrap;
+    font-size: 17px;
+    color:rgb(61, 61, 61);
+    margin:auto;
+    padding:10px;
+}
+
+.diary_box{
+    position:absolute;
+    width: 520px;
+    height: 400px;
+    margin-top:5rem;
+    font-size:15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'NeoDunggeunmo';
+}
+
+.diary_box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border:1px solid rgb(112, 112, 112);
+    margin-bottom: 30px;;
+}
+
+.diary_date{
+    text-align: left;
+    color:rgb(241, 75, 178);
+    padding-top:20px;
+    padding-left:20px;
+}
+
+.diary_content{
+    padding:30px;
+    margin: auto;
+    line-height: 18px;
+    text-align: center;
+}
+
+.secret_button{
+    background-color: white;
+    color: white;
+    padding:15px 25px;
+    margin: 10px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+
+.secret_button:hover{
+    background-color: rgb(231, 94, 179);
+    border:1px solid rgb(8, 8, 8);
+}
+
+#secret-box {
+    display: none;
+  }
